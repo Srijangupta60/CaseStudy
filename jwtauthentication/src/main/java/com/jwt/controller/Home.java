@@ -18,7 +18,7 @@ public class Home {
         return text;
     }
 
-
+//after login successfully
     @RequestMapping("/getusers")
     public String getUser() {
         return "Welcome you are successfully Login";
